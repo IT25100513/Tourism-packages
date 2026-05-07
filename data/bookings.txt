@@ -1,0 +1,6 @@
+# id,userId,packageId,status,bookingDate,notes
+1,7d50dc82-5687-4786-87b8-1ec03a96ba8d,1,CONFIRMED,2026-03-02,"Vegetarian meals, prefers window seats."
+2,11111111-1111-1111-1111-111111111102,2,PENDING,2026-04-11,
+3,698e177c-66ce-4332-a872-3ec77c6d0a7c,1,CONFIRMED,2026-05-05,hii
+4,bc8c951b-aeca-4a94-818d-eeedad8737e9,1,CANCELLED,2026-05-05,hiii
+5,bc8c951b-aeca-4a94-818d-eeedad8737e9,2,COMPLETED,2026-05-07,dzzddvb

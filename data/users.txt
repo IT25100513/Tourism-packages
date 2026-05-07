@@ -1,0 +1,7 @@
+# id,name,email,username,phone,type,password
+11111111-1111-1111-1111-111111111101,John Doe,john.doe@example.com,jdoe,+94-77-000-1234,Passenger,jdoe123
+11111111-1111-1111-1111-111111111102,Mali Fonseka,mali.f@example.com,mali,+94-71-555-8899,Passenger,mali123
+698e177c-66ce-4332-a872-3ec77c6d0a7c,Senal Anuraheesara,senalanuraheesara@gmail.com,senal,0769412240,Passenger,senal123
+7d50dc82-5687-4786-87b8-1ec03a96ba8d,Dinuja,prabhadeetravelblog@gmail.com,n,0712345679,Passenger,dinuja123
+a2c922ae-7448-4856-af10-83862fd0fb4d,menura perera,menura@gmai.com,menura,0723303946,Passenger,menura123
+bc8c951b-aeca-4a94-818d-eeedad8737e9,kamal,kamal@gmail.com,demo,0712345678,Passenger,demo123

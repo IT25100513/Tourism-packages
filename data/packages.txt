@@ -1,0 +1,3 @@
+# id,name,price(LKR),durationDays,destinationId,description
+1,Aurora & Hot Springs Escape,615000,5,1,"Four nights chasing northern lights plus Blue Lagoon serenity."
+2,Hill Station Heritage Trail,308000,4,2,"Train rides, manor stays, and cooking lessons with planter families."

@@ -1,0 +1,3 @@
+# id,name,country,description
+1,Golden Circle,Iceland,"Geysirs, waterfalls, and rift valleys packed into one scenic corridor."
+2,Tea Country,Sri Lanka,"Misty plantations, hikes through colonial trails, and hands-on tastings."

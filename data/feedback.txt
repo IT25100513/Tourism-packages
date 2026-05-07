@@ -1,0 +1,6 @@
+# id,userId,packageId,rating,comment,createdAt
+1,7d50dc82-5687-4786-87b8-1ec03a96ba8d,1,5,Guides were flexible when weather changed; hotel picks were perfect.,2026-03-10
+2,11111111-1111-1111-1111-111111111102,2,4,Loved the train leg; would enjoy an extra tea workshop next time.,2026-04-15
+3,bc8c951b-aeca-4a94-818d-eeedad8737e9,1,4,xfbbx,2026-05-05
+4,bc8c951b-aeca-4a94-818d-eeedad8737e9,1,5,xfhfh,2026-05-05
+5,bc8c951b-aeca-4a94-818d-eeedad8737e9,2,3,zbxfbfbf,2026-05-07
