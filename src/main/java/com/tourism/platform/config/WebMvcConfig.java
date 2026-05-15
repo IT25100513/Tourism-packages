@@ -4,6 +4,7 @@ import com.tourism.platform.security.AdminAuthInterceptor;
 import com.tourism.platform.security.BookingManagementInterceptor;
 import com.tourism.platform.security.CustomerAuthInterceptor;
 import com.tourism.platform.security.NotificationBadgeInterceptor;
+import com.tourism.platform.security.SharedAuthInterceptor;
 import com.tourism.platform.security.StaffAuthInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
