@@ -187,9 +187,14 @@ public class BookingController {
         model.addAttribute("packages", packageService.findAll());
         model.addAttribute("minTripDate", TripFeedbackRules.today().toString());
         model.addAttribute("maxTripDate", TripFeedbackRules.today().plusYears(2).toString());
+
+        // Update the existing object with the new input (to republish if validation fails)
+        existing.setPackageId(packageId);
+        existing.setBookingDate(tripDate == null ? "" : tripDate.trim());
+        existing.setNotes(ValidationSupport.trimLen(notes, 500));
         model.addAttribute("booking", existing);
 
-        var tripStart = TripFeedbackRules.parseBookingStart(tripDate == null ? "" : tripDate.trim());
+        var tripStart = TripFeedbackRules.parseBookingStart(existing.getBookingDate());
         var today     = TripFeedbackRules.today();
 
         if (tripStart == null) {
@@ -209,9 +214,8 @@ public class BookingController {
             return "booking/customer-edit";
         }
 
-        existing.setPackageId(packageId);
+        // Finalize values and save
         existing.setBookingDate(tripStart.toString());
-        existing.setNotes(ValidationSupport.trimLen(notes, 500));
         bookingService.save(existing);
         return "redirect:/bookings/my?success=updated";
     }

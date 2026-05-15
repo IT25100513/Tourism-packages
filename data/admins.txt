@@ -1,2 +1,2 @@
 # id,username,password,fullName,email
-1,admin,admin123,Neha Karunaratne,admin@tourism.demo
+1,admin,admin123,Saman,admin@tourism.demo
